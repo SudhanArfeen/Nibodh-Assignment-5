@@ -1,0 +1,335 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.icon i {
+  margin: 0 10px 0 10px;
+}
+.phone_head {
+  margin: 0 10px 0 10px;
+}
+
+.header_container_dark {
+  background-color: rgba(12, 11, 11, 0.89);
+  color: whitesmoke;
+  padding: 0 50px;
+}
+.login_signup_container {
+  display: flex;
+  justify-content: flex-end;
+}
+.login_signup_container button {
+  background: none;
+  border: none;
+  color: rgb(236, 230, 255);
+}
+.custom-link-nav .nav-link {
+  color: rgb(37, 37, 37);
+  padding: 0 10px;
+  border-right: 1px solid rgb(37, 37, 37);
+}
+
+.custom-link-nav {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-custom .custom-logo {
+  height: 93.2px;
+}
+.custom-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-btn-donate {
+  height: 43px;
+  margin-top: 21px;
+  border-radius: 30px;
+}
+.nav-custom {
+  padding: 5px 50px;
+}
+.hero-img-custom {
+  height: 550px;
+  background-image: url("./resources/images/exp3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+}
+.hero-heading {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  text-transform: uppercase;
+}
+.hero-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(253, 196, 205, 0.4);
+}
+.banner-1-custom {
+  height: 300px;
+  background-color: rgb(80, 255, 173);
+  color: rgb(8, 6, 14);
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.banner-1-custom span,
+.line2 {
+  margin: 15px 0;
+  width: 70px;
+  height: 1px;
+  border-top: 5px solid #fff;
+}
+
+.donate-container {
+  height: 300px;
+  top: 20%;
+}
+
+.circle-div-container {
+  position: relative;
+  height: 300px;
+}
+
+.circular-div {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  color: rgb(23, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #0000;
+  top: 20%;
+}
+
+.circular-div.cr1 {
+  background-color: rgb(255, 113, 31);
+  left: 31%;
+  color: rgb(3, 3, 3);
+}
+.circular-div.cr2 {
+  background-color: aqua;
+  left: 43%;
+  color: black;
+  z-index: none;
+}
+.circular-div.cr3 {
+  background-color: rgb(255, 113, 31);
+  left: 56%;
+  color: rgb(3, 3, 3);
+  z-index: none;
+}
+.donate-info-btn-con .btn {
+  border-radius: 30px;
+  height: 30px;
+  width: 120px;
+  font-size: 14px;
+  margin: 0 10px;
+  background-color: rgb(34, 238, 34);
+color: black;
+}
+.donate-info-btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.custom-misc-h1-1 span {
+  color: indianred;
+}
+
+.custom-logo-misc {
+  height: 80px;
+  width: 80px;
+  margin-top: 30px;
+}
+.line2 {
+  border-color: lightcoral;
+  margin: 0 auto;
+}
+
+.custom-card-button{
+  background-color:  rgb(255, 113, 31);
+}
+.heignt-creator{
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(230, 255, 238);
+}
+
+.bar-chart{
+width: 45px;
+display: flex;
+flex-direction: column-reverse;
+background-color: rgb(255, 221, 31);
+position: relative;
+border-radius: 2px;
+}
+
+
+.bar-chart p {
+white-space: nowrap;
+
+  transform: rotate(-90deg);
+}
+.bar-chart div {
+position: absolute;
+top: -20px;
+left: 12px;
+}
+
+.con-chart{
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.custom-misc-2-con-chart{
+  padding: 40px 150px;
+  background-color: #f6f5f3;
+}
+
+.form-icon{
+  position: relative;  
+  }
+  
+  .form-icon i{
+    position: absolute;
+    left: px;
+    top: 16%;
+  
+  }
+  
+  .form-icon input{
+    padding: 0 0 0 30px;
+  }
+  
+  .pill{
+    border-radius: 30px;
+  
+  }
+  
+  .transaprent-hand{
+    position: absolute;
+    max-width: 311px;
+    right: 68px;
+    top: 100px;
+  }
+  .button9{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: skyblue;
+    border-style: solid;
+    border-radius: 999px;
+    padding: 15px 30px 15px 30px;
+
+}
+
+
+.slider-image-team{
+  border-radius: 60px;
+  width: 150px;
+  height: 150px;
+}
+
+.foot{
+ 
+  padding-bottom: 80px;
+  border-bottom: black;
+}
+
+.logot{
+  font-size: 20px;
+  font-weight: 600;
+  color: black
+}
+.footImg{
+  width: 150px;
+}
+
+.mt{
+  margin-top: 10%;
+}
+.arfeen{
+  background-color: #fff7e6;
+  font-family: 'Times New Roman', Times, serif;
+}
+.nature-event {
+  background-image: url("https://images.unsplash.com/photo-1610878180933-123728745d22?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuYWRhJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+  background-blend-mode: screen;
+  background-color: #726f6f;
+}
+
+.natureCard {
+  font-size: 14px;
+  width: 100%;
+  height: 50vh;
+  margin: 25% 40%;
+  background-color: rgba(22, 22, 22, 0.4);
+  padding: 20px;
+}
+
+.spanEvent {
+  color: #06472c;
+  font-weight: 600;
+}
+
+.spanE {
+  margin: 2% 1%;
+  width: 10%;
+  border-top: 3px solid #f3670a;
+}
+
+.upcomingEvent {
+  margin: 100px 10px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 70vh;
+  height: 55vh;
+}
+
+.event-para {
+  padding-right: 40px;
+  color: #0a5523;
+}
+.calender {
+  background-color: rgba(31, 30, 30, 0.2);
+  width: 70px;
+  height: 70px;
+  color: white;
+  padding: 5px 0px;
+}
+.calender .digit {
+  padding: 7px 25px;
+}
+.month {
+  padding: 5px 16px;
+}
+.cal-head p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+.card3{
+  background-color:rgb(230, 255, 238);
+  font-family: 'Times New Roman', Times, serif;
+}
